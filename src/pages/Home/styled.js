@@ -18,18 +18,18 @@ export const Left = styled.div`
   justify-content: flex-start;
 `
 export const Mid = styled.div`
-  width: 600px;
+  width: 650px;
   padding: 10px;
 `
 export const Right = styled.div`
-  width: 300px;
+  width: 250px;
   padding: 10px;
 `
 export const Menu = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 200px;
+  width: 250px;
   color: #fff;
   cursor: pointer;
 `
@@ -38,4 +38,10 @@ export const LeftText = styled.h2`
   font-weight: 900;
   padding: 10px;
   color: #fff;
+`
+export const ContentBoxView = styled.div`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 `

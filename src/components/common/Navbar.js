@@ -11,7 +11,7 @@ const Container = styled.div`
   padding: 0 1em;
   padding-right: 2em;
   /* transition: color 500ms, background 500ms, box-shadow 500ms; */
-  background-color: blue;
+  background-color: #418def;
   padding: 0 7rem;
 `
 const Logo = styled.h1`

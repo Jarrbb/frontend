@@ -7,7 +7,8 @@ import RouterView from './routes'
 
 const GlobalStyle = createGlobalStyle`
   body {
-  background-color: #141f27;
+  background-color: #16202A;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 `
 
