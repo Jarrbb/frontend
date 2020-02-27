@@ -18,6 +18,7 @@ import ContentBox from '../../components/home/ContentBox'
 import NewPage from '../../components/home/NewPage'
 import NameTag from '../../components/home/NameTag'
 import TrendingBoard from '../../components/home/TrendingBoard'
+import CategoryBoard from '../../components/home/CategoryBoard'
 
 const Home = ({ exampleStore }) => {
   console.log(exampleStore)
@@ -47,6 +48,7 @@ const Home = ({ exampleStore }) => {
         ))}
       </Mid>
       <Right>
+        <CategoryBoard />
         <NewPage />
       </Right>
     </Component>

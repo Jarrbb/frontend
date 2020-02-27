@@ -6,7 +6,7 @@ export const Component = styled.div`
   /* align-items: center; */
   justify-content: flex-start;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1250px;
   margin: auto;
 `
 export const Left = styled.div`
@@ -22,7 +22,7 @@ export const Mid = styled.div`
   padding: 10px;
 `
 export const Right = styled.div`
-  width: 250px;
+  width: 300px;
   padding: 10px;
 `
 export const Menu = styled.div`

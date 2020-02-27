@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
+import { FaSearch } from 'react-icons/fa'
 
 const Container = styled.div`
   /* width: 100vw; */
@@ -33,10 +34,25 @@ const NavItem = styled.div`
   align-items: center;
   justify-content: center;
 `
+const SearchDiv = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`
+const SearchIcon = styled(FaSearch)`
+  background-color: #fff;
+  color: #000;
+  height: 27px;
+  border: 1px solid #000;
+  border-left: 0;
+  padding: 0 5px;
+`
 const SearchInput = styled.input`
-  width: 200px;
+  width: 250px;
   height: 25px;
-  border-radius: 5px;
+  border: 1px solid #000;
+  border-right: 0;
+  /* border-radius: 5px; */
 `
 
 const Navbar = () => {
@@ -48,11 +64,15 @@ const Navbar = () => {
         <Logo>Jarb</Logo>
       </NavItem>
       <NavItem>
-        <SearchInput
-          value={search}
-          onChange={e => setSearch(e.target.value)}
-          placeholder="Find something..."
-        />
+        <SearchDiv>
+          <SearchInput
+            value={search}
+            onChange={e => setSearch(e.target.value)}
+            placeholder="Search..."
+          />
+          <SearchIcon />
+        </SearchDiv>
+        <Profile></Profile>
         <Profile></Profile>
         <Profile></Profile>
         <Profile></Profile>
